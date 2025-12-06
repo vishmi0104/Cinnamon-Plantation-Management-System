@@ -1,0 +1,16 @@
+export { default as Home } from "./Home/Home.jsx";
+export { default as Plots } from "./Plots/Plots.jsx";
+export { default as Assignments } from "./Assignments/Assignments.jsx";
+export { default as Batches } from "./Batches/Batches.jsx";
+export { default as Issues } from "./Issues/Issues.jsx";
+export { default as Fertilizes } from "./Fertilizes/Fertilizes.jsx";
+export { default as SupportDashboard } from "./SupportDashboard/SupportDashboard.jsx";
+export { default as ConsultationDashboard } from "./ConsultationDashboard/ConsultationDashboard.jsx";
+export { default as InventoryDashboard } from "./InventoryDashboard/InventoryDashboard.jsx";
+export { default as FactoryManagerDashboard } from "./FactoryManagerDashboard/FactoryManagerDashboard.jsx";
+export { default as UserShop } from "./UserShop.jsx";
+export { default as FinanceManagerDashboard } from "./FinanceManagerDashboard.jsx";
+export { default as PaymentManagement } from "./PaymentManagement.jsx";
+export { default as Payment } from "./Payment.jsx";
+export { default as UserOrders } from "./UserOrders.jsx";
+export { default as InventoryManagement } from "./InventoryManagement.jsx"; 
