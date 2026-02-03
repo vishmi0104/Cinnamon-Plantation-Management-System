@@ -135,14 +135,18 @@ Cinnamon-Plantation-Management-System/
 └── README.md
 
 
-## ⚙️ Installation & Setup
+---
+⚙️ Installation & Setup
+Prerequisites
 
-### Prerequisites
-- Node.js
-- MongoDB
-- npm or yarn
+Node.js
 
-### Clone the Repository
-```bash
+MongoDB
+
+npm or yarn
+
+Clone the Repository
+
+```text
 git clone https://github.com/vishmi0104/Cinnamon-Plantation-Management-System.git
 cd Cinnamon-Plantation-Management-System
