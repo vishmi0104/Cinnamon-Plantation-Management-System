@@ -21,7 +21,11 @@ The **Cinnamon Plantation Management System** provides a **centralized, digital 
 - Enable real-time monitoring of plantation activities  
 - Reduce manual errors in inventory and financial records  
 - Support scalable system expansion  
-
+- User authentication & authorization (JWT)
+- Analytics dashboard with charts
+- Mobile responsiveness improvements
+- Export reports (PDF / Excel)
+- Notification and alert system
 ---
 
 ## ✨ Key Features
@@ -133,7 +137,7 @@ Cinnamon-Plantation-Management-System/
 ├── .gitignore
 ├── package.json                    # Root scripts (npm run dev)
 └── README.md
-
+ ``` 
 
 ---
 ⚙️ Installation & Setup
@@ -150,3 +154,32 @@ Clone the Repository
 ```text
 git clone https://github.com/vishmi0104/Cinnamon-Plantation-Management-System.git
 cd Cinnamon-Plantation-Management-System
+ ```
+Install Dependencies
+```text
+npm install
+cd frontend
+npm install
+cd ..
+ ```
+▶️ Running the Application (Development Mode)
+```text
+npm run dev
+```
+---
+
+## 📜 License
+
+This project is developed for **educational and academic purposes**.  
+You are free to modify and enhance it for learning or portfolio use.
+
+---
+
+## 👩‍💻 Author
+
+**Vishmi Ishanka**  
+GitHub: https://github.com/vishmi0104
+
+---
+
+⭐ If you found this project helpful, feel free to star the repository!
