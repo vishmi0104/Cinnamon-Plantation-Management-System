@@ -81,54 +81,68 @@ The **Cinnamon Plantation Management System** provides a **centralized, digital 
 
 ## 📂 Project Structure
 
+```text
 Cinnamon-Plantation-Management-System/
 │
 ├── backend/
-│   ├── config/                 # Database & environment configuration
+│   ├── config/                     # Database & environment configuration
 │   │   └── db.js
 │   │
-│   ├── controllers/            # Business logic
+│   ├── controllers/                # Business logic
 │   │   ├── inventoryController.js
 │   │   ├── salesController.js
 │   │   ├── issueController.js
 │   │   ├── deliveryController.js
 │   │   └── harvestController.js
 │   │
-│   ├── models/                 # MongoDB schemas
+│   ├── models/                     # MongoDB schemas
 │   │   ├── Inventory.js
 │   │   ├── Sale.js
 │   │   ├── Issue.js
 │   │   ├── Delivery.js
 │   │   └── Harvest.js
 │   │
-│   ├── routes/                 # API routes
+│   ├── routes/                     # API routes
 │   │   ├── inventoryRoutes.js
 │   │   ├── salesRoutes.js
 │   │   ├── issueRoutes.js
 │   │   ├── deliveryRoutes.js
 │   │   └── harvestRoutes.js
 │   │
-│   ├── middleware/             # Custom middleware
+│   ├── middleware/                 # Custom middleware
 │   │   └── errorMiddleware.js
 │   │
-│   ├── server.js               # Entry point
+│   ├── server.js                   # Entry point
 │   └── package.json
 │
 ├── frontend/
-│   ├── public/                 # Static assets
+│   ├── public/                     # Static assets
 │   │   └── index.html
 │   │
 │   ├── src/
-│   │   ├── components/         # Reusable UI components
-│   │   ├── pages/              # Application pages
-│   │   ├── services/           # API calls
-│   │   ├── assets/             # Images & styles
+│   │   ├── components/             # Reusable UI components
+│   │   ├── pages/                  # Application pages
+│   │   ├── services/               # API calls
+│   │   ├── assets/                 # Images & styles
 │   │   ├── App.js
 │   │   └── index.js
 │   │
 │   └── package.json
 │
-├── .env                        # Environment variables
+├── .env                            # Environment variables
 ├── .gitignore
-├── package.json                # Root scripts (npm run dev)
+├── package.json                    # Root scripts (npm run dev)
 └── README.md
+
+
+## ⚙️ Installation & Setup
+
+### Prerequisites
+- Node.js
+- MongoDB
+- npm or yarn
+
+### Clone the Repository
+```bash
+git clone https://github.com/vishmi0104/Cinnamon-Plantation-Management-System.git
+cd Cinnamon-Plantation-Management-System
